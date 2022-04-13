@@ -30,6 +30,7 @@ const charName = info.data.results[0].name;
 console.log(charName)
 characterName.innerHTML = charName
 
+descriptionHeader.innerHTML = 'Description'
 aboutCharacter.innerHTML = info.data.results[0].description;
 
 
